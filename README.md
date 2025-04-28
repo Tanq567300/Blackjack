@@ -31,4 +31,4 @@ A fun and interactive Blackjack (21) game built with Python. Simply download the
 ## Credits
 This project was made as the first capstone project during my completion of Angela Yu's 100 Days of Code: The Complete Python Code BootCamp. However, the code logic is completely mine and I've even added a points and betting system.
 
-Thank you :)
+Thank you.
