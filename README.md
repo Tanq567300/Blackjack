@@ -1,14 +1,6 @@
 # BlackJack
 
-.------.            _     _            _    _            _    
-|A_  _ |.          | |   | |          | |  (_)          | |   
-|( \/ ).-----.     | |__ | | __ _  ___| | ___  __ _  ___| | __
-| \  /|K /\  |     | '_ \| |/ _` |/ __| |/ / |/ _` |/ __| |/ /
-|  \/ | /  \ |     | |_) | | (_| | (__|   <| | (_| | (__|   < 
-`-----| \  / |     |_.__/|_|\__,_|\___|_|\_\ |\__,_|\___|_|\_\\
-      |  \/ K|                            _/ |                
-      `------'                           |__/           
-
+![alt text](image-3.png)
 ## Description
 A fun and interactive Blackjack (21) game built with Python. Simply download the `main.py` and `art.py` files, run the `main.py` script, and challenge the computer dealer to see if you can beat the house!
 
