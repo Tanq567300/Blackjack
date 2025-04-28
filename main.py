@@ -34,7 +34,7 @@ def Blackjack():
         if total == 21:
             print(f"{at.logo} \nBlackjack! You win!")
             pot += bet
-            break
+            continue
         elif dealer_total == 21:
             print(f"{at.lose} \nDealer has blackjack! You lose!")
             pot -= bet
@@ -81,17 +81,18 @@ def Blackjack():
             
             else:
                 print("Invalid choice. Please type 'hit' or 'stand'.")
-    if pot <10:
-        print("your pot is less than 10 points, you cannot play anymore")
-        b= input("Do you want to play again? y/n: ")
-        b=b.lower()
-        if b== "y":
-            pot = 200
-            print(f"Pot restored to {pot} points")
-            Blackjack()
-        else:
-            print("Thanks for playing!")
-    elif pot == 0:
+        if pot <10:
+            print("your pot is less than 10 points, you cannot play anymore")
+            b= input("Do you want to play again? y/n: ")
+            b=b.lower()
+            if b== "y":
+                pot = 200
+                print(f"Pot restored to {pot} points")
+                Blackjack()
+            else:
+                print("Thanks for playing!")
+                break
+    if pot == 0:
         print(at.gameover)
         a=input("Do you want to play again? y/n: ")
         a=a.lower()
