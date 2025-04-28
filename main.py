@@ -4,13 +4,7 @@ import random as rd
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 pot = 200
 print(at.logo)
-print(f'''{at.houserules}
-      Here are the House Rules: \n 
-      *The deck is unlimited in size.\n 
-      *There are no jokers.\n 
-      *The Jack/Queen/King all count as 10.\n 
-      *The Ace can count as 11 or 1.\n 
-      *Use the following list as the deck of card''')
+print(at.houserules)
 print(f"You will start with {pot} points")
 
 
